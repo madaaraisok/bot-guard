@@ -1,0 +1,12 @@
+infrastructure:
+  adapters:
+    output:
+      rest:
+        ip.api.baseUrl: http://localhost:8080
+      cache:
+        rate-limiter:
+          ip:
+            capacity: 100
+            refill:
+              tokens: 10
+              period: 1m

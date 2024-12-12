@@ -1,0 +1,9 @@
+[*]
+charset = utf-8
+
+[*.java]
+indent_style = space
+ij_java_indent_size = 4
+ij_java_blank_lines_after_class_header = 1
+ij_java_blank_lines_before_class_end = 1
+ij_java_align_multiline_chained_methods = true
